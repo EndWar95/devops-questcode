@@ -1,0 +1,8 @@
+image:
+  repository: endwar95/frontend
+  tag: alpha-staging
+service:
+  nodePort: 30888
+container:
+  port: 80
+replicas: 2
